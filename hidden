@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { background-color: black; color: white; font-family: Arial, sans-serif; }
+        .container { text-align: center; width: 80%; margin: auto; padding: 10px; }
+        .hidden { display: none; }
+        .footer { font-size: small; opacity: 0.7; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="display:flex; justify-content:center; flex-wrap:wrap;">
+            <img src="https://www.mywebsite.com/logo_banner.png" alt="Banner">
+        </div>
+        <br>
+        <div class="hidden">
+            <p>ACM{th1s_1s_n0t_@_f1@g_404}</p> 
+        </div>
+        <div style="display:inline-block;">
+            <a href="https://www.mywebsite.com/home">
+                <img src="https://www.mywebsite.com/home_button.jpg" alt="Home">
+            </a>
+            <a href="https://www.mywebsite.com/page2">
+                <img src="https://www.mywebsite.com/next_button.jpg" alt="Next">
+            </a>
+        </div>
+        <br>
+        <div style="border: 1px solid white; padding: 15px;">
+            <h1 style="border-bottom: 2px solid white; padding-bottom: 5px;">About Us</h1>
+            <p style="line-height:1.5em; text-align:justify;">
+                Welcome to our website! We specialize in providing top-notch services that cater to a diverse range of needs. 
+                From technology solutions to creative projects, our team is dedicated to ensuring quality and excellence in all that we do. 
+                Feel free to explore and learn more about our mission, vision, and the values that drive us forward.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </div>
+
+    <div class="hidden">
+        <p>ACM{y0u_f0und_th3_b@it}</p> 
+    </div>
+
+    <script>
+        var str1 = "ACM";
+        var str2 = "{";
+        var str3 = "H1dd";
+        var str4 = "3n_F1@g";
+        var str5 = "_1n_P141n";
+        var str6 = "_c0d3}";
+        console.log(str1 + str2 + str3 + str4 + str5 + str6);
+    </script>
+</body>
+</html>
