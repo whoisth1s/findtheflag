@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { background-color: black; color: white; font-family: Arial, sans-serif; }
+        .container { text-align: center; width: 80%; margin: auto; padding: 10px; }
+        .hidden { display: none; }
+        .footer { font-size: small; opacity: 0.7; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="display:flex; justify-content:center; flex-wrap:wrap;">
+            <img src="https://www.mypaper.com/logo_banner.png" alt="Banner">
+        </div>
+        <br>
+        <div class="hidden">
+            <p>ACM{m1n3_r3v3rs3_r00t}</p> 
+        </div>
+        <div style="display:inline-block;">
+            <a href="https://www.mypaper.com/home">
+                <img src="https://www.mypaper.com/home_button.jpg" alt="Home">
+            </a>
+            <a href="https://www.mypaper.com/page2">
+                <img src="https://www.mypaper.com/next_button.jpg" alt="Next">
+            </a>
+        </div>
+        <br>
+        <div style="border: 1px solid white; padding: 15px;">
+            <h1 style="border-bottom: 2px solid white; padding-bottom: 5px;">About Us</h1>
+            <p style="line-height:1.5em; text-align:justify;">
+                Welcome to my research paper! We specialize in providing cutting-edge solutions that challenge conventional thinking. Our team is dedicated to solving complex problems and creating innovative technologies that will shape the future. We believe in adapting to ever-changing demands and offering services that push boundaries.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </div>
+
+    <div class="hidden">
+        <p>ACM{un1c0d3r_4l1gn3d}</p> 
+    </div>
+
+    <script>
+        var str1 = "ACM";
+        var str2 = "{";
+        var str3 = "G3n3r";
+        var str4 = "_C0d3";
+        var str5 = "f0r_3xpl0r3rs";
+        var str6 = "_p@ss}";
+        console.log(str1 + str2 + str3 + str4 + str5 + str6);
+    </script>
+</body>
+</html>
